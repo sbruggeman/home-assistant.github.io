@@ -26,7 +26,7 @@ A physical Hue Bridge is required for Philips Hue lights to function - this virt
 </p>
 
 <p class='note'>
-It is recommended to assign a static IP address to the computer running Home Assistant. This is because the Amazon Echo discovers devices by IP addresses, and if the IP changes, the Echo won't be able to control it. This is easiest done from your router, see your router's manual for details.
+It is recommended to assign a static IP address to the computer running Home Assistant. This is because the Amazon Echo discovers devices by IP addresses, and if the IP changes, the Echo won't be able to control it. This is easiest done from your router, see your router's manual for details. This component also requires UPnP support. Port 1900/UDP most be accessible on the host running Home Assistant.
 </p>
 
 ### {% linkable_title Configuration %}
